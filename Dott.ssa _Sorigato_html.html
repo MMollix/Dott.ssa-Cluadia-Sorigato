@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5f0">
+  <meta name="description" content="Sito dimostrativo personalizzabile per un'attività locale. Scopri i servizi e chiedi informazioni.">
+  <meta property="og:title" content="Studio Forma — Demo sito vetrina">
+  <meta property="og:description" content="Un'esperienza semplice, curata e su misura.">
+  <title>Dott.ssa Claudia Sorigato - Studio di diabetologia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+  <header class="site-header" id="inizio">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inizio" aria-label="Dott.ssa Claudia Sorigato"><span class="brand-mark">DS</span><span data-business-name>Dott.ssa Claudia Sorigato</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Apri il menu"><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Navigazione principale">
+        <a href="#filosofia">Lo studio</a><a href="#servizi">Servizi</a><a href="#galleria">Galleria</a><a href="#contatti">Contatti</a>
+        <a class="button button-small nav-cta" data-contact-link href="#contatti">Parliamone <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenuto">
+    <section class="hero section-pad">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span><span data-eyebrow>DOTT.SSA CLAUDIA SORIGATO · DIABETOLOGIA</span></p>
+          <h1 data-slogan>La tua salute.<br><em>La tua cura.</em></h1>
+          <p class="hero-description" data-description>Uno spazio dedicato alla cura del diabete, dove ogni appuntamento parte dall'ascolto e prende forma intorno a te.</p>
+          <div class="hero-actions"><a class="button" data-primary-cta href="#contatti">Richiedi informazioni <span aria-hidden="true">↗</span></a><a class="text-link" href="#servizi">Scopri i servizi <span aria-hidden="true">↓</span></a></div>
+        </div>
+        <div class="hero-visual reveal">
+          <img class="hero-image" data-hero-image src="https://media.doctolib.com/image/upload/q_auto:eco,f_auto/vqrrvltuijuelaggegdc.jpg" alt="Interno Studio diabetologa" fetchpriority="high">
+          <div class="image-label"><span class="image-label-kicker">SPAZIO · ASCOLTO · PREVENZIONE</span><span>Il dettaglio fa la differenza.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Valori dello studio"><div class="container trust-grid"><p><span>01</span> Attenzione alla persona</p><p><span>02</span> Cura dei dettagli</p><p><span>03</span> Aiuto su misura</p></div></section>
+
+    <section class="section-pad about" id="filosofia">
+      <div class="container about-grid">
+        <div class="section-heading reveal"><p class="eyebrow"><span class="eyebrow-line"></span> CHI SONO</p><h2>Dott.ssa<br><em>Claudia Sorigato</em></h2></div>
+        <div class="about-copy reveal"><p class="lead" data-about>Dottoressa laureata in diabetologia (non sono sicuro, ma penso), con vari anni di esperienza nel settore.</p><p class="muted"></p><a class="text-link" href="#contatti">Vieni a conoscermi <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="container about-image-wrap reveal"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBzBkYQE-UXnoj3lTtqqeo89TORepST5qDSbcQHNm21nZ0nvy3a-c_WtCc&s=10" alt="Prevenzione" loading="lazy"><div class="about-image-caption"><span>UN APPROCCIO SEMPLICE</span><span>Qualità, ascolto, prevenzione.</span></div></div>
+    </section>
+
+    <section class="section-pad services-section" id="servizi">
+      <div class="container"><div class="section-heading centered reveal"><p class="eyebrow"><span class="eyebrow-line"></span> COSA FACCIO <span class="eyebrow-line"></span></p><h2>Incontri pensati <em>per te.</em></h2><p class="section-intro"></p></div><div class="service-grid" id="service-grid"></div></div>
+    </section>
+
+    <section class="section-pad gallery-section" id="galleria">
+      <div class="container"><div class="gallery-top reveal"><div class="section-heading"><p class="eyebrow"><span class="eyebrow-line"></span> ATMOSFERA</p><h2>Uno spazio in cui<br><em>sentirsi a proprio agio.</em></h2></div><p class="muted gallery-description">Le immagini sono illustrative e vanno sostituite con fotografie autorizzate dell'attività e dei suoi ambienti.</p></div>
+        <div class="gallery-grid"><button class="gallery-item gallery-tall reveal" type="button" data-lightbox="https://media.doctolib.com/image/upload/q_auto:eco,f_auto/vqrrvltuijuelaggegdc.jpg" aria-label="Ingrandisci foto dell'ambiente"><img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=80" alt="Ambiente di barber shop" loading="lazy"><span class="gallery-caption">LO SPAZIO <span>↗</span></span></button><button class="gallery-item reveal" type="button" data-lightbox="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=1600&q=90" aria-label="Ingrandisci foto degli strumenti"><img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&q=80" alt="Strumenti da barbiere" loading="lazy"><span class="gallery-caption">I DETTAGLI <span>↗</span></span></button><div class="gallery-note reveal"><span class="gallery-note-mark">“</span><p>Il risultato migliore è quello che ti fa sentire davvero te stesso.</p><span class="gallery-note-small">UN PENSIERO, NON UNA RECENSIONE</span></div></div>
+      </div>
+    </section>
+
+    <section class="hours-section section-pad" id="orari"><div class="container hours-grid"><div class="section-heading reveal"><p class="eyebrow"><span class="eyebrow-line"></span> ORGANIZZA LA VISITA</p><h2>Troviamo il<br><em>momento giusto.</em></h2><p class="muted">Gli orari qui sotto sono segnaposto e devono essere verificati prima della pubblicazione.</p></div><div class="hours-card reveal"><div class="hours-card-head"><span>ORARI DI APERTURA</span><span class="hours-icon" aria-hidden="true">◷</span></div><div id="hours-list" class="hours-list"></div><p class="hours-footnote">Per festività e variazioni di orario, contatta direttamente l'attività.</p></div></div></section>
+
+    <section class="contact-section section-pad" id="contatti"><div class="container contact-grid"><div class="contact-copy reveal"><p class="eyebrow"><span class="eyebrow-line"></span> CONTATTI</p><h2>La prossima mossa<br><em>è tua.</em></h2><p class="contact-lead">Hai una domanda o vuoi saperne di più? Scrivici: troviamo insieme la soluzione più adatta.</p><div class="contact-details" id="contact-details"></div><div class="social-links" id="social-links"></div></div>
+      <form class="contact-form reveal" id="contact-form" novalidate><div class="form-top"><span>SCRIVICI</span><span class="form-number">01 / 01</span></div><h3>Come possiamo aiutarti?</h3><p class="muted form-description">Compila i campi: prepareremo il messaggio nel tuo programma email, senza inviarlo automaticamente.</p><div class="field-row"><label>Nome <input name="name" autocomplete="name" required minlength="2" placeholder="Il tuo nome"></label><label>Email o telefono <input name="replyTo" autocomplete="email" required placeholder="Come possiamo ricontattarti?"></label></div><label>Motivo della richiesta <select name="reason" required><option value="">Seleziona un'opzione</option><option>Informazioni sui servizi</option><option>Disponibilità e appuntamenti</option><option>Prezzi</option><option>Altro</option></select></label><label>Messaggio <textarea name="message" rows="4" required minlength="10" placeholder="Raccontaci di cosa hai bisogno..."></textarea></label><button class="button form-submit" type="submit">Prepara il messaggio <span aria-hidden="true">↗</span></button><p class="form-status" id="form-status" role="status" aria-live="polite">Demo: il modulo richiede un indirizzo email configurato per aprire una bozza.</p><p class="privacy-note">Non inserire informazioni sensibili. Prima della pubblicazione, aggiungi e verifica l'informativa privacy pertinente.</p></form></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-main"><a class="brand footer-brand" href="#inizio"><span class="brand-mark">SF</span><span data-business-name>Studio Forma</span></a><p data-footer-description>Un'esperienza semplice, curata e su misura.</p><a class="back-top" href="#inizio">Torna all'inizio ↑</a></div><div class="container footer-bottom"><span>© <span id="current-year"></span> <span data-business-name>Studio Forma</span> · Sito dimostrativo</span><span>Da completare: contatti, dati aziendali e privacy.</span></div></footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Immagine ingrandita"><button class="lightbox-close" type="button" aria-label="Chiudi immagine">×</button><img id="lightbox-image" src="" alt=""></dialog>
+  <noscript><p class="noscript-note">Per usare tutte le funzioni di questo sito dimostrativo, attiva JavaScript.</p></noscript>
+</body>
+</html>
